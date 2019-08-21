@@ -12,8 +12,8 @@ end
 
 def get_japanese_emoticon(file, western)
   dictionary = load_library(file)
-  if dictionary["get_emoticon"].keys.include?(value)
-    dictionary["get_emoticon"][value]
+  if dictionary["get_emoticon"].keys.include?(western)
+    dictionary["get_emoticon"][western]
   else
     return "Sorry, it's not here"
   end
