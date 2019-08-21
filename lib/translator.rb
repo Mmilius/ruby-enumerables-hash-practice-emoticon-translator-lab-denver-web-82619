@@ -25,5 +25,7 @@ def get_english_meaning(file, japanese)
   if dictionary["get_meaning"].keys.include?(japanese)
     dictionary["get_meaning"][japanese]
   else
-    return = ""
+    return = "Sorry, that emoticon was not found"
+  end
+end
 end
