@@ -7,6 +7,7 @@ def load_library(emoticon_file)
     get_meaning[(value[1])] = key
     get_emoticon([value[0]]) = value[1]
 end
+end
 
 def get_japanese_emoticon(western)
   load_library
