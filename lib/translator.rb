@@ -12,7 +12,10 @@ end
 
 def get_japanese_emoticon(file, western)
   dictionary = load_library(file)
-  if dictionary
+  if dictionary["get_emoticon"].keys.include?(value)
+    dictionary["get_emoticon"][value]
+  else
+    return "Sorry, it's not here"
   
   
   # code goes here
