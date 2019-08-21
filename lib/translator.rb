@@ -11,7 +11,7 @@ dictionary
 end
 
 def get_japanese_emoticon(file, western)
-  load_library(file)
+  dictionary = load_library(file)
   
   
   # code goes here
