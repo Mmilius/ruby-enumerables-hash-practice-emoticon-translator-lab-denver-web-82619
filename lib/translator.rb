@@ -15,7 +15,7 @@ def get_japanese_emoticon(file, western)
   if dictionary["get_emoticon"].keys.include?(western)
     dictionary["get_emoticon"][western]
   else
-    return "Sorry, it's not here"
+    return "Sorry, that emoticon was not found"
   end
 end
 
