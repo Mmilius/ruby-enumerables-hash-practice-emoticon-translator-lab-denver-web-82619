@@ -16,6 +16,8 @@ def get_japanese_emoticon(file, western)
     dictionary["get_emoticon"][value]
   else
     return "Sorry, it's not here"
+  end
+end
   
   
   # code goes here
