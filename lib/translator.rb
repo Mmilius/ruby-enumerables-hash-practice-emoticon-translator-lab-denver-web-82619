@@ -18,10 +18,7 @@ def get_japanese_emoticon(file, western)
     return "Sorry, it's not here"
   end
 end
-  
-  
-  # code goes here
-end
+
 
 def get_english_meaning(japanese)
   load_library
