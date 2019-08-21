@@ -12,6 +12,7 @@ end
 
 def get_japanese_emoticon(file, western)
   dictionary = load_library(file)
+  if dictionary
   
   
   # code goes here
