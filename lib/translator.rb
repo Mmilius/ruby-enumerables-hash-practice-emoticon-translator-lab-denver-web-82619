@@ -20,8 +20,10 @@ def get_japanese_emoticon(file, western)
 end
 
 
-def get_english_meaning(japanese)
-  load_library
-  return ENGLISH 
-  # code goes here
+def get_english_meaning(file, japanese)
+  dictionary = load_library(file)
+  if dictionary["get_meaning"].keys.include?(japanese)
+    dictionary["get_meaning"][japanese]
+  else
+    return = ""
 end
