@@ -9,9 +9,9 @@ def load_library(emoticon_file)
     get_meaning[(value[1])] = key
     get_emoticon[(value[0])] = value[1]
 end
-new["get_meaning"] = get_meaning
-new["get_meaning"] = get_emoticon
-new
+dictionary["get_meaning"] = get_meaning
+dictionary["get_meaning"] = get_emoticon
+dictionary
 end
 
 def get_japanese_emoticon(western)
