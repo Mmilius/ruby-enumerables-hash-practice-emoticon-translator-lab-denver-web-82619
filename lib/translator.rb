@@ -10,9 +10,8 @@ end
 dictionary
 end
 
-def get_japanese_emoticon(western)
-  YAML.load_file(emoticon_file)
-  
+def get_japanese_emoticon(file, western)
+  load_library()
   
   # code goes here
 end
