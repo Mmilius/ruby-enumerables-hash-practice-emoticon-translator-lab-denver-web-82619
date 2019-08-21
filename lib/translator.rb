@@ -6,7 +6,6 @@ def load_library(emoticon_file)
   dictionary.each do |key, value|
     get_meaning[(value[1])] = key
     get_emoticon[(value[0])] = value[1]
-end
 dictionary["get_meaning"] = get_meaning
 dictionary["get_meaning"] = get_emoticon
 end
