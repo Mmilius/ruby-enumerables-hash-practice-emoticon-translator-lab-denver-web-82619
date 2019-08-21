@@ -9,6 +9,7 @@ def load_library(emoticon_file)
 end
 dictionary["get_meaning"] = get_meaning
 dictionary["get_meaning"] = get_emoticon
+end
 dictionary
 end
 
